@@ -10,7 +10,7 @@
 body {
   color: #ffffff;
   background-color: #404040;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #container {
@@ -33,7 +33,37 @@ body {
 }
 
 #container #topbar {
+  height: 170px;
+  padding: 10px;
+  margin: 20px 0 25px 0;
   font-size: 25px;
+  background-color: #16e943;
+}
+
+#container #topbar .picture {
+  float: left;
+}
+
+#container #topbar .picture img {
+  height: 160px;
+  width: 150px;
+  padding: 20px;
+  border-right: 2px dotted #cccccc;
+  text-align: center;
+  opacity: 0.8;
+  background-color: #15e943;
+}
+
+#container #topbar .topbar_R {
+  float: left;
+  padding: 20px;
+  width: 788px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+#container #topbar .topbar_R p {
+  font-weight: 600;
 }
 
 #container #sidebar {
@@ -56,10 +86,10 @@ body {
   font-size: 18px;
   font-weight: 700;
   border-right: 2px dotted #5c5b5b;
-  opacity: .8;
+  opacity: 0.8;
   cursor: pointer;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #container .option:hover {
