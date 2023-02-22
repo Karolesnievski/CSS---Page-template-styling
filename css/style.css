@@ -9,7 +9,7 @@
 
 body {
   color: #ffffff;
-  background-color: gray;
+  background-color: #404040;
   font-family: 'Lato', sans-serif;
 }
 
@@ -56,6 +56,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   border-right: 2px dotted #5c5b5b;
+  opacity: .8;
   cursor: pointer;
   -webkit-transition: .3s;
   transition: .3s;
