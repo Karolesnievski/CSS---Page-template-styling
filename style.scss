@@ -2,6 +2,53 @@
 *::after,
 *::before {
 	box-sizing: border-box;
-    padding: 0;
+	padding: 0;
 	margin: 0;
+}
+
+body {
+	color: #ffffff;
+	background-color: gray;
+    font-family: 'Lato', sans-serif;
+}
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+
+	#logo {
+		margin:20px 0 0 0;
+        letter-spacing: 3px;
+		font-size: 44px;
+        font-weight: 900;
+		
+	}
+
+	#menu {
+		margin: 20px 0 0 0;
+        padding: 10px;
+        background-color: #303030;
+	}
+    #topbar {
+        font-size: 25px;
+    }
+    #sidebar {
+        float:left;
+    }
+    #content{
+        float:left;
+    }
+    #footer {
+        clear: both;
+    }
+
+    .option{
+        float: left;
+        padding: 10px;
+        height: 40px;
+        min-width: 50px;
+        font-size: 18px;
+        font-weight: 700;
+        border-right:2px dotted #5c5b5b;
+    }
 }
