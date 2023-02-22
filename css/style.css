@@ -124,6 +124,13 @@ body {
   background-color: #dedede;
 }
 
+#container #content .dottedline {
+  height: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border-bottom: 2px dotted #444444;
+}
+
 #container .main {
   font-size: 18px;
   font-weight: 600;
