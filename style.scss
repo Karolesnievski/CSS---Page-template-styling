@@ -50,5 +50,11 @@ body {
         font-size: 18px;
         font-weight: 700;
         border-right:2px dotted #5c5b5b;
+        cursor: pointer;
+        transition: .3s;
+    }
+    .option:hover {
+        background-color: #0202025e;
+        border-radius: 5px;
     }
 }

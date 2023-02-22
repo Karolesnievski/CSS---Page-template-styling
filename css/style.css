@@ -56,5 +56,13 @@ body {
   font-size: 18px;
   font-weight: 700;
   border-right: 2px dotted #5c5b5b;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#container .option:hover {
+  background-color: #0202025e;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
