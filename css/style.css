@@ -32,53 +32,7 @@ body {
   background-color: #303030;
 }
 
-#container #topbar {
-  height: 170px;
-  padding: 10px;
-  margin: 20px 0 25px 0;
-  font-size: 25px;
-  background-color: #16e943;
-}
-
-#container #topbar .picture {
-  float: left;
-}
-
-#container #topbar .picture img {
-  height: 160px;
-  width: 150px;
-  padding: 20px;
-  border-right: 2px dotted #cccccc;
-  text-align: center;
-  opacity: 0.8;
-  background-color: #15e943;
-}
-
-#container #topbar .topbar_R {
-  float: left;
-  padding: 20px;
-  width: 788px;
-  font-size: 16px;
-  text-align: justify;
-}
-
-#container #topbar .topbar_R p {
-  font-weight: 600;
-}
-
-#container #sidebar {
-  float: left;
-}
-
-#container #content {
-  float: left;
-}
-
-#container #footer {
-  clear: both;
-}
-
-#container .option {
+#container #menu .option {
   float: left;
   padding: 10px;
   height: 40px;
@@ -92,8 +46,71 @@ body {
   transition: 0.3s;
 }
 
-#container .option:hover {
+#container #menu .option:hover {
   background-color: #0202025e;
   border-radius: 5px;
+}
+
+#container #topbar {
+  height: 170px;
+  padding: 10px;
+  margin: 20px 0 25px 0;
+  font-size: 25px;
+  background-color: #16e943;
+}
+
+#container #topbar .picture {
+  float: left;
+  opacity: 0.9;
+}
+
+#container #topbar .picture img {
+  height: 160px;
+  width: 141px;
+  padding: 20px;
+  border-right: 2px dotted #cccccc;
+  text-align: center;
+  background-color: #15e943;
+}
+
+#container #topbar .topbar_R {
+  float: left;
+  width: 788px;
+  padding: 20px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+#container #topbar .topbar_R p {
+  font-weight: 600;
+}
+
+#container #sidebar {
+  float: left;
+  min-height: 620px;
+  width: 148px;
+  padding: 20px;
+  text-align: center;
+  border-right: 2px dotted #666666;
+  background-color: lightgray;
+}
+
+#container #content {
+  float: left;
+  min-height: 620px;
+  width: 852px;
+  padding: 20px;
+  text-align: justify;
+  background-color: #dedede;
+}
+
+#container .main {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+#container #footer {
+  clear: both;
 }
 /*# sourceMappingURL=style.css.map */
